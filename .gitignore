@@ -1,0 +1,71 @@
+# ----------------------------------------
+# Python / Streamlit
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# If you use a virtual environment folder:
+venv/
+env/
+.venv/
+
+# If you have local config or secrets:
+.env
+*.local
+
+# Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Streamlit credentials / config
+~/.streamlit/
+
+# ----------------------------------------
+# Terraform
+# ----------------------------------------
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# If using Terraform plan outputs
+*.tfplan
+
+# ----------------------------------------
+# Docker
+# ----------------------------------------
+*.log
+*.pid
+*.pid.lock
+
+# Ignoring image layers if you export them
+*.tar
+
+# ----------------------------------------
+# System / Editor
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# IDE / Editor-specific
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+out/
+
+# Other Mac system files
+.Spotlight-V100
+.Trashes
+
+# ----------------------------------------
+# Custom
+# ----------------------------------------
+# Add any additional files/folders you want to ignore below:
+# e.g. secrets/ or local_settings.py
